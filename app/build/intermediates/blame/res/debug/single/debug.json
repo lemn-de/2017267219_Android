@@ -24,6 +24,10 @@
         "source": "E:\\Androidproject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "E:\\Androidproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_normal.xml.flat",
+        "source": "E:\\Androidproject\\app\\src\\main\\res\\layout\\activity_normal.xml"
+    },
+    {
         "merged": "E:\\Androidproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "E:\\Androidproject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "E:\\Androidproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "E:\\Androidproject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Androidproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dialog.xml.flat",
+        "source": "E:\\Androidproject\\app\\src\\main\\res\\layout\\activity_dialog.xml"
     },
     {
         "merged": "E:\\Androidproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",

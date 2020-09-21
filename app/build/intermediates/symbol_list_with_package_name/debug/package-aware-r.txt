@@ -829,6 +829,8 @@ id src_in
 id src_over
 id standard
 id start
+id start_dialog_activity
+id start_normal_activity
 id submenuarrow
 id submit_area
 id tabMode
@@ -897,7 +899,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_dialog
 layout activity_main
+layout activity_normal
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -940,6 +944,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string search_menu_title
+string start_dialogactivity
+string start_normalactivity
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

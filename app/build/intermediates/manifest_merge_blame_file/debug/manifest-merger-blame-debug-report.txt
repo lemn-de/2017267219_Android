@@ -11,7 +11,7 @@
 9-->E:\Androidproject\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->E:\Androidproject\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->E:\Androidproject\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->E:\Androidproject\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,20 +28,30 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->E:\Androidproject\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.helloworld.MainActivity" >
-21-->E:\Androidproject\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->E:\Androidproject\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->E:\Androidproject\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->E:\Androidproject\app\src\main\AndroidManifest.xml:14:17-69
-23-->E:\Androidproject\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->E:\Androidproject\app\src\main\AndroidManifest.xml:16:17-77
-25-->E:\Androidproject\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
+21        <activity
+21-->E:\Androidproject\app\src\main\AndroidManifest.xml:12:9-13:20
+22            android:name="com.example.helloworld.DialogActivity"
+22-->E:\Androidproject\app\src\main\AndroidManifest.xml:12:19-49
+23            android:theme="@style/Theme.AppCompat.Dialog" >
+23-->E:\Androidproject\app\src\main\AndroidManifest.xml:12:50-95
+24        </activity>
+25        <activity android:name="com.example.helloworld.NormalActivity" />
+25-->E:\Androidproject\app\src\main\AndroidManifest.xml:14:9-52
+25-->E:\Androidproject\app\src\main\AndroidManifest.xml:14:19-49
+26        <activity android:name="com.example.helloworld.MainActivity" >
+26-->E:\Androidproject\app\src\main\AndroidManifest.xml:15:9-21:20
+26-->E:\Androidproject\app\src\main\AndroidManifest.xml:15:19-47
+27            <intent-filter>
+27-->E:\Androidproject\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\Androidproject\app\src\main\AndroidManifest.xml:17:17-69
+28-->E:\Androidproject\app\src\main\AndroidManifest.xml:17:25-66
 29
-30</manifest>
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\Androidproject\app\src\main\AndroidManifest.xml:19:17-77
+30-->E:\Androidproject\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
