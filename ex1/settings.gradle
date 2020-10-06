@@ -1,2 +1,2 @@
-include ':2017267219_Android\\app'
-rootProject.name = "HelloWorld"
+include ':app'
+rootProject.name = "ex1"
