@@ -13,11 +13,10 @@
 
         <activity
             android:name=".SecondActivity"
-            android:launchMode="singleTop">
+            android:launchMode="singleInstance">
 
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
+                <action android:name="com.example.activitytest.ACTION_START" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.example.activitytest.MY_CATEGORY" />
             </intent-filter>
