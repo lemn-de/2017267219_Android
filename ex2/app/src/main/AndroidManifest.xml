@@ -12,18 +12,12 @@
         <activity android:name=".ThirdActivity"></activity>
 
         <activity
-            android:name=".SecondActivity"
-            android:launchMode="singleInstance">
+            android:name=".SecondActivity">
 
-            <intent-filter>
-                <action android:name="com.example.activitytest.ACTION_START" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.example.activitytest.MY_CATEGORY" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".FirstActivity"
-            android:launchMode="singleTask">
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -43,7 +43,11 @@ public class FirstActivity extends AppCompatActivity {
         Log.d("FirstActivity", "onRestart");
     }
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("FirstActivity", "onDestroy");
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
