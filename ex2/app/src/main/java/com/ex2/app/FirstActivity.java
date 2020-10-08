@@ -27,12 +27,21 @@ public class FirstActivity extends AppCompatActivity {
             }
 
         });
+        Button button2 = (Button) findViewById(R.id.button_2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+                startActivity(intent);
+            }
+        });
     }
     @Override
     protected void onRestart() {
         super.onRestart();
         Log.d("FirstActivity", "onRestart");
     }
+
 
 
     @Override
