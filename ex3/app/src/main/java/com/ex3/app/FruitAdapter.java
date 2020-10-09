@@ -27,7 +27,6 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>{
             fruitView = view;
             fruitImage = (ImageView) view.findViewById(R.id.fruit_image);
             fruitName = (TextView) view.findViewById(R.id.fruit_name);
-            fruitNo =(TextView) view.findViewById(R.id.fruit_no);
         }
     }
 
@@ -63,7 +62,6 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>{
         Fruit fruit = mFruitList.get(position);
         holder.fruitImage.setImageResource(fruit.getImageId());
         holder.fruitName.setText(fruit.getName());
-        holder.fruitNo.setText(String.valueOf(position+1));
     }
 
     @Override
