@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button:
-//                imageView.setImageResource(R.drawable.image2);
-                String inputText = editText.getText().toString();
-                Toast.makeText(MainActivity.this, inputText, Toast.LENGTH_SHORT).show();
+                imageView.setImageResource(R.drawable.image2);
                 break;
             default:
                 break;
