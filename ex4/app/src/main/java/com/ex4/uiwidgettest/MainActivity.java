@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,11 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.button:
 //                imageView.setImageResource(R.drawable.image2);
-                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
-                progressDialog.setTitle("This is ProgressDialog");
-                progressDialog.setMessage("Loading...");
-                progressDialog.setCancelable(true);
-                progressDialog.show();
+                String inputText = editText.getText().toString();
+                Toast.makeText(MainActivity.this, inputText, Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
