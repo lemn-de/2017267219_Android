@@ -12,7 +12,7 @@ import java.util.TimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.example.mycalendar.calendar.Lunar.getChinaDayString;
+import static com.app.xjbcalender.calendar.Lunar.getChinaDayString;
 
 public class LunarSolarConverter {
 

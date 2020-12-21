@@ -1,11 +1,6 @@
 package com.app.xjbcalender.course.common;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

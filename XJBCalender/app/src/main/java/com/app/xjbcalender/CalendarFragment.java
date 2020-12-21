@@ -23,13 +23,13 @@ import android.widget.DatePicker;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.mycalendar.Schedule.Edit;
-import com.example.mycalendar.Schedule.Memo;
-import com.example.mycalendar.Schedule.MemoAdapter;
-import com.example.mycalendar.Schedule.OneMemo;
-import com.example.mycalendar.Schedule.OneShotAlarm;
-import com.example.mycalendar.calendar.CustomCalendar;
-import com.example.mycalendar.calendar.DayFinish;
+import com.app.xjbcalender.Schedule.Edit;
+import com.app.xjbcalender.Schedule.Memo;
+import com.app.xjbcalender.Schedule.MemoAdapter;
+import com.app.xjbcalender.Schedule.OneMemo;
+import com.app.xjbcalender.Schedule.OneShotAlarm;
+import com.app.xjbcalender.calendar.CustomCalendar;
+import com.app.xjbcalender.calendar.DayFinish;
 
 import org.litepal.crud.DataSupport;
 import org.litepal.tablemanager.Connector;

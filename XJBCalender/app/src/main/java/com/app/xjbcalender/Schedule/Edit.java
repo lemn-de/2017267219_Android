@@ -22,7 +22,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.example.mycalendar.R;
+import com.app.xjbcalender.R;
 
 import java.util.Calendar;
 

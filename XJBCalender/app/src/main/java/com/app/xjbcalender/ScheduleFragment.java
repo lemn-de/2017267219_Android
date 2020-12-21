@@ -1,34 +1,31 @@
 package com.app.xjbcalender;
 
-import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
-import android.view.MenuInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ListView;
-
-import org.litepal.tablemanager.Connector;
-
-import java.util.ArrayList;
-import java.util.List;
-import com.example.mycalendar.Schedule.*;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import  android.support.v7.app.AppCompatActivity;
+import  android.support.v7.widget.Toolbar;
+
+import com.app.xjbcalender.Schedule.Edit;
+import com.app.xjbcalender.Schedule.Memo;
+import com.app.xjbcalender.Schedule.MemoAdapter;
+import com.app.xjbcalender.Schedule.OneMemo;
+import com.app.xjbcalender.Schedule.OneShotAlarm;
 
 import org.litepal.crud.DataSupport;
 import org.litepal.tablemanager.Connector;
@@ -38,7 +35,6 @@ import java.util.Calendar;
 import java.util.List;
 
 import static android.app.Activity.RESULT_OK;
-import static android.content.ContentValues.TAG;
 
 public class ScheduleFragment extends Fragment implements ListView.OnItemClickListener,ListView.OnItemLongClickListener  {
     //list to store all the memo

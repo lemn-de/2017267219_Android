@@ -1,8 +1,5 @@
 package com.app.xjbcalender.course.bean;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
 
 // UserCourse用于记录个人课表

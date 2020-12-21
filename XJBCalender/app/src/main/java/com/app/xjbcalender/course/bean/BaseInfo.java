@@ -1,10 +1,7 @@
 package com.app.xjbcalender.course.bean;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
-import java.io.Serializable;
+
 import java.io.Serializable;
 
 // BaseInfo用于记录整体信息

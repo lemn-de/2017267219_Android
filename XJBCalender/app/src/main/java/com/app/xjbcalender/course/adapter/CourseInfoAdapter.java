@@ -1,8 +1,5 @@
 package com.app.xjbcalender.course.adapter;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,19 +9,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import java.util.List;
-
-import android.content.Context;
-import android.graphics.Color;
-import android.view.Gravity;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.TextView;
-
-
-import com.example.mycalendar.R;
-import com.example.mycalendar.course.bean.CourseInfo;
+import com.app.xjbcalender.R;
+import com.app.xjbcalender.course.bean.CourseInfo;
 
 import java.util.List;
 

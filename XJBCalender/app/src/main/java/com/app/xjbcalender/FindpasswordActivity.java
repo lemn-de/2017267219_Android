@@ -1,19 +1,19 @@
 package com.app.xjbcalender;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
-import com.example.mycalendar.db.UserRegister;
-import com.example.mycalendar.util.EmailUtils;
-import com.example.mycalendar.util.HttpUtil;
+import android.support.v7.app.AppCompatActivity;
+
+import com.app.xjbcalender.db.UserRegister;
+import com.app.xjbcalender.util.EmailUtils;
+import com.app.xjbcalender.util.HttpUtil;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -44,6 +44,9 @@ public class FindpasswordActivity extends AppCompatActivity {
             actionBar.setDisplayShowTitleEnabled(false);
         }
         initView();
+    }
+
+    private void setSupportActionBar(Toolbar toolbar) {
     }
 
     private void initView(){

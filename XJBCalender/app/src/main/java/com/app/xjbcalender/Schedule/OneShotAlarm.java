@@ -17,7 +17,7 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.mycalendar.R;
+import com.app.xjbcalender.R;
 
 import org.litepal.crud.DataSupport;
 

@@ -1,11 +1,7 @@
 package com.app.xjbcalender;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -15,9 +11,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
-import com.example.mycalendar.db.UserRegister;
-import com.example.mycalendar.util.HttpUtil;
+import com.app.xjbcalender.db.UserRegister;
+import com.app.xjbcalender.util.HttpUtil;
 import com.google.gson.Gson;
 
 import java.io.IOException;

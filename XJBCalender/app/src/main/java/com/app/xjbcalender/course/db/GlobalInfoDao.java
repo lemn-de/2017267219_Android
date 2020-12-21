@@ -1,8 +1,5 @@
 package com.app.xjbcalender.course.db;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
 import android.content.Context;
 import android.database.Cursor;
@@ -12,7 +9,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.mycalendar.course.bean.GlobalInfo;
+import com.app.xjbcalender.course.bean.GlobalInfo;
 
 public class GlobalInfoDao {
     private DBHelper dbHelper;

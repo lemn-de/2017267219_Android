@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.mycalendar.R;
+import com.app.xjbcalender.R;
 
 import java.util.List;
 

@@ -9,23 +9,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.example.mycalendar.MainActivity;
-import com.example.mycalendar.R;
-import com.example.mycalendar.course.bean.CourseInfo;
-import com.example.mycalendar.course.bean.GlobalInfo;
-import com.example.mycalendar.course.common.Utility;
-import com.example.mycalendar.course.db.GlobalInfoDao;
-import com.example.mycalendar.course.db.UserCourseDao;
+import com.app.xjbcalender.MainActivity;
+import com.app.xjbcalender.R;
+import com.app.xjbcalender.course.bean.CourseInfo;
+import com.app.xjbcalender.course.bean.GlobalInfo;
+import com.app.xjbcalender.course.common.Utility;
+import com.app.xjbcalender.course.db.GlobalInfoDao;
+import com.app.xjbcalender.course.db.UserCourseDao;
 
 
 /**

@@ -16,7 +16,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.mycalendar.R;
+import com.app.xjbcalender.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -26,9 +26,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-/**
- * Created by 逍遥依尘 on 2018/7/1.
- */
 
 public class CustomCalendar extends View {
 

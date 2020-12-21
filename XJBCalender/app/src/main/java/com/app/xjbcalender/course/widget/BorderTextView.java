@@ -1,24 +1,13 @@
 package com.app.xjbcalender.course.widget;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.util.AttributeSet;
-import android.widget.TextView;
-
-import com.example.mycalendar.R;
+import com.app.xjbcalender.R;
 
 
 /**

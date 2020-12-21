@@ -1,22 +1,11 @@
 package com.app.xjbcalender.course.common;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
+
 
 import android.annotation.SuppressLint;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
+import com.app.xjbcalender.course.bean.BaseInfo;
 
-import android.annotation.SuppressLint;
-
-
-import com.example.mycalendar.course.bean.BaseInfo;
-
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;

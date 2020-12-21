@@ -1,27 +1,20 @@
 package com.app.xjbcalender;
 
-import android.app.DatePickerDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.mycalendar.db.UserRegister;
-import com.example.mycalendar.util.DatePickerDialogUtils;
-import com.example.mycalendar.util.EmailUtils;
-import com.example.mycalendar.util.HttpUtil;
+import com.app.xjbcalender.db.UserRegister;
+import com.app.xjbcalender.util.DatePickerDialogUtils;
+import com.app.xjbcalender.util.EmailUtils;
+import com.app.xjbcalender.util.HttpUtil;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.util.HashMap;

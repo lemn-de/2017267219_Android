@@ -2,9 +2,7 @@ package com.app.xjbcalender.calendar;
 
 import android.graphics.Paint;
 
-/**
- * Created by 逍遥依尘 on 2018/7/1.
- */
+
 
 public class FontUtil {
 

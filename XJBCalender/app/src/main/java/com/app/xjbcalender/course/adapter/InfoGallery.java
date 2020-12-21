@@ -1,17 +1,6 @@
 package com.app.xjbcalender.course.adapter;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
 
-import android.content.Context;
-import android.graphics.Camera;
-import android.graphics.Matrix;
-import android.util.AttributeSet;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.animation.Transformation;
-import android.widget.Gallery;
 
 import android.content.Context;
 import android.graphics.Camera;

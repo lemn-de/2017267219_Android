@@ -1,8 +1,6 @@
 package com.app.xjbcalender.course.bean;
 
-/**
- * Created by 逍遥依尘 on 2018/6/28.
- */
+
 
 
 //用户信息
